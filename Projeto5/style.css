@@ -1,0 +1,55 @@
+body{
+    background-color:lightblue;
+}
+
+
+.container{
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.formulario{
+ 
+    text-align: right;
+    padding: 90px 0px;
+    justify-content: space-between;
+    }
+
+.forms{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    
+    
+}
+
+.forms input{
+    font-size: 1rem;
+    width: 250px;
+    
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.foto{
+    text-align: center;
+}
+
+.foto img{
+    width: 60%;
+    margin-top: 50px;
+}
+
+
+.resultado{
+    text-align:center;
+    font-size: 1.6rem;
+}
+
+.carro{
+    font-size: 2rem;
+}
+
+
