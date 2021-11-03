@@ -10,7 +10,7 @@ btnCalcular.addEventListener('click', function(){
     mostrar = document.getElementById('mostrarResultado')
 
     entrada = frmPreco /2
-    parcela = parseFloat(((frmPreco/2)/60)*1.7).toFixed(2)
+    parcela = ((frmPreco/2)/60)*1.7
 
 
     // Link usado para conhecimento em formatar float para Real
