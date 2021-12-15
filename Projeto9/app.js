@@ -72,8 +72,7 @@ const apostarNumero = function(){
         mostrarDica.innerHTML = ""
         mostrarErros.innerHTML = "Acabaram as tentativas"
         mostrarChancesRestantes.innerHTML = ""
-     //   alert("acabaram as tentativas")
-
+   
     }
 
 }
