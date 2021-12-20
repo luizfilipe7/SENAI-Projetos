@@ -1,6 +1,11 @@
-let result = fetch('https://api.adviceslip.com/advice')
-.then(r => r.json())
-.then (json => 
-    document.querySelector(".conselho").textContent = json.slip.advice
-) 
-
+window.onload = function () {
+    fetch("https://api.adviceslip.com/advice")
+    .then((resp) => resp.json())
+    .then(function (data) {
+        let conselho = data.slip.advice;
+        document.querySelector("#conselho").textContent = `"${conselho}"`;
+    })
+    .catch(function (error) {
+        console.error(error)
+    })
+};
